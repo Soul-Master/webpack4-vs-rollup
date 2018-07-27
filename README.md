@@ -68,7 +68,7 @@ module.exports = {
 
 ## Webpack Output (pretty print) - 993 bytes
 ```
-! function(e) {
+!function(e) {
     var t = {};
 
     function r(n) {
