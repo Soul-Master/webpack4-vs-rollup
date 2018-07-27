@@ -1,0 +1,23 @@
+{
+  "name": "test-webpack4",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.3",
+    "rollup": "0.63.4",
+    "rollup-plugin-uglify": "4.0.0",
+    "uglify-es": "3.3.9"
+  },
+  "scripts": {
+    "start": "npm install & npm run build:webpack & npm run build:rollup",
+    "build:webpack": "webpack --config webpack.prod.js",
+    "build:rollup": "rollup -c rollup.config.js --external all"
+  },
+  "author": "",
+  "license": "ISC"
+}
