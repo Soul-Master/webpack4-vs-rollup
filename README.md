@@ -126,3 +126,5 @@ https://medium.com/webpack/webpack-4-mode-and-optimization-5423a6bc597a
 https://webpack.js.org/guides/production/
 
 https://webpack.js.org/plugins/module-concatenation-plugin/
+
+https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/
