@@ -124,3 +124,5 @@ module.exports = {
 https://medium.com/webpack/webpack-4-mode-and-optimization-5423a6bc597a
 
 https://webpack.js.org/guides/production/
+
+https://webpack.js.org/plugins/module-concatenation-plugin/
